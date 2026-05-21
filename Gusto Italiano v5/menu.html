@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Menu — Il Gusto Italiano</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-screen-label="Menu">
+
+<nav class="nav is-solid" id="nav">
+  <a class="nav__brand" href="index.html">
+    <span class="nav__brand__line1">Concept</span>
+    <span class="nav__brand__line2">Restaurant Website</span>
+  </a>
+  <div class="nav__links" id="navLinks">
+    <a href="index.html">Home</a>
+    <a href="menu.html" class="is-active">Menu</a>
+    <a href="faq.html">FAQ</a>
+  </div>
+  <div class="nav__right">
+    <button class="nav__cta" id="navBookOnline">Book Online</button>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="pagehero">
+  <div class="divider">la carta</div>
+  <h1>Il Menu</h1>
+</header>
+
+<!-- Sticky tabs -->
+<div class="menu-tabs" id="menuTabs">
+  <div class="menu-tabs__row">
+    <div class="menu-tabs__row-label">Food</div>
+    <div class="menu-tabs__row-items">
+      <button class="menu-tab is-active" data-target="antipasti">Antipasti</button>
+      <button class="menu-tab" data-target="primi">Primi</button>
+      <button class="menu-tab" data-target="secondi">Secondi</button>
+      <button class="menu-tab" data-target="contorni">Contorni</button>
+      <button class="menu-tab" data-target="dolci">Dolci</button>
+    </div>
+  </div>
+  <div class="menu-tabs__row menu-tabs__row--drinks">
+    <div class="menu-tabs__row-label">Drinks</div>
+    <div class="menu-tabs__row-items">
+      <button class="menu-tab" data-target="aperitivi">Aperitivi</button>
+      <button class="menu-tab" data-target="rossi">Vini Rossi</button>
+      <button class="menu-tab" data-target="bianchi">Vini Bianchi</button>
+      <button class="menu-tab" data-target="rosato">Rosato</button>
+      <button class="menu-tab" data-target="birre">Birre</button>
+      <button class="menu-tab" data-target="analcolici">Analcolici</button>
+      <button class="menu-tab" data-target="caffe">Caffè</button>
+      <button class="menu-tab" data-target="digestivi">Digestivi</button>
+    </div>
+  </div>
+</div>
+
+<main>
+
+  <!-- ANTIPASTI -->
+  <section class="menu-section" id="antipasti">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">i.</div>
+        <h2>Antipasti</h2>
+        <p>To begin.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Bruschetta al Pomodoro</div>
+            <div class="menu-item__desc">Sourdough, vine tomatoes, garlic, basil, Ligurian olive oil. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£7.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Calamari Fritti</div>
+            <div class="menu-item__desc">Cornish squid in semolina flour, lemon, parsley, aioli al limone.</div>
+          </div>
+          <div class="menu-item__price">£11.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Vitello Tonnato</div>
+            <div class="menu-item__desc">Thinly sliced roasted veal, tuna cream, capers, anchovies, lemon. <span style="color:var(--gold);font-weight:600"></span></div>
+          </div>
+          <div class="menu-item__price">£13.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Insalata Caprese</div>
+            <div class="menu-item__desc">Buffalo mozzarella, vine tomatoes, fresh basil. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£9.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Antipasto Misto</div>
+            <div class="menu-item__desc">Selection of cured meats, olives, roasted peppers, and artisan cheeses.</div>
+          </div>
+          <div class="menu-item__price">£14.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Prosciutto e Melone</div>
+            <div class="menu-item__desc">San Daniele prosciutto, Charentais melon, aged balsamic.</div>
+          </div>
+          <div class="menu-item__price">£11.50</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIMI -->
+  <section class="menu-section" id="primi">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">ii.</div>
+        <h2>Primi</h2>
+        <p>Pasta &amp; risotto.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Spaghetti alla Carbonara</div>
+            <div class="menu-item__desc">Guanciale, free-range egg yolk, grated cheese.</div>
+          </div>
+          <div class="menu-item__price">£13.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Tagliatelle al Ragù</div>
+            <div class="menu-item__desc">Slow-cooked beef and pork ragù, fresh pasta, parmigiano.</div>
+          </div>
+          <div class="menu-item__price">£14.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Lasagna della Casa</div>
+            <div class="menu-item__desc">Eight-layer lasagna, béchamel, ragù, parmigiano. Family recipe.</div>
+          </div>
+          <div class="menu-item__price">£15.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Risotto ai Funghi</div>
+            <div class="menu-item__desc">Carnaroli rice, wild mushrooms, parmigiano, white wine, truffle oil. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£14.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Ravioli con Ricotta e Spinaci</div>
+            <div class="menu-item__desc">Handmade ravioli filled with ricotta and spinach, sage butter, parmigiano, toasted pine nuts. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£14.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Linguine ai Gamberi</div>
+            <div class="menu-item__desc">King prawns, cherry tomatoes, garlic, white wine, chilli, parsley.</div>
+          </div>
+          <div class="menu-item__price">£17.50</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECONDI -->
+  <section class="menu-section" id="secondi">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">iii.</div>
+        <h2>Secondi</h2>
+        <p>From the grill, the pan, and the wood-fired oven.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Tagliata di Manzo</div>
+            <div class="menu-item__desc">Sliced 35-day aged sirloin, rocket, shaved parmigiano, aged balsamic.</div>
+          </div>
+          <div class="menu-item__price">£24.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Pollo al Saltimbocca</div>
+            <div class="menu-item__desc">Free-range chicken breast, prosciutto, sage, white wine, capers.</div>
+          </div>
+          <div class="menu-item__price">£18.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Salmone al Limone</div>
+            <div class="menu-item__desc">Scottish salmon fillet, caper butter, lemon, herbs, slow-roasted tomato.</div>
+          </div>
+          <div class="menu-item__price">£19.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Melanzane alla Parmigiana</div>
+            <div class="menu-item__desc">Layered aubergine, tomato, basil, parmigiano, fior di latte. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£15.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Cotoletta alla Milanese</div>
+            <div class="menu-item__desc">Veal cutlet, breadcrumbed and fried in butter, lemon, gremolata.</div>
+          </div>
+          <div class="menu-item__price">£18.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Pollo alla Cacciatora</div>
+            <div class="menu-item__desc">Slow-braised chicken, tomatoes, olives, rosemary, white wine.</div>
+          </div>
+          <div class="menu-item__price">£17.00</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTORNI -->
+  <section class="menu-section" id="contorni">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">iv.</div>
+        <h2>Contorni</h2>
+        <p>Sides.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div><div class="menu-item__name">Patate al Rosmarino</div></div>
+          <div class="menu-item__price">£5.50</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Verdure Grigliate</div></div>
+          <div class="menu-item__price">£6.50</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Insalata Mista</div></div>
+          <div class="menu-item__price">£5.00</div>
+        </div>
+        <div class="menu-item">
+          <div><div class="menu-item__name">Patate Fritte</div></div>
+          <div class="menu-item__price">£5.00</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOLCI -->
+  <section class="menu-section" id="dolci">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">v.</div>
+        <h2>Dolci</h2>
+        <p>The end is just as important as the beginning.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Tiramisù della Casa</div>
+            <div class="menu-item__desc">Mascarpone, savoiardi soaked in espresso &amp; marsala, cocoa. Family recipe.</div>
+          </div>
+          <div class="menu-item__price">£7.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Panna Cotta</div>
+            <div class="menu-item__desc">Set cream with vanilla, seasonal berry coulis. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£6.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Torta al Cioccolato</div>
+            <div class="menu-item__desc">Warm dark chocolate fondant, vanilla gelato, salted caramel. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£7.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Crostata di Frutta</div>
+            <div class="menu-item__desc">Butter pastry, crème pâtissière, seasonal fruit. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£7.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item__name">Gelato Misto</div>
+            <div class="menu-item__desc">Three scoops, ask your server for today's flavours. <span style="color:var(--gold);font-weight:600">v</span></div>
+          </div>
+          <div class="menu-item__price">£6.50</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APERITIVI -->
+  <section class="menu-section" id="aperitivi">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">vi.</div>
+        <h2>Aperitivi</h2>
+        <p>To open the appetite.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Aperol Spritz</div></div><div class="menu-item__price">£9.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Americano</div></div><div class="menu-item__price">£8.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Campari Soda</div></div><div class="menu-item__price">£7.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Bellini</div></div><div class="menu-item__price">£9.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Vermouth Bianco</div></div><div class="menu-item__price">£7.50</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VINI ROSSI -->
+  <section class="menu-section" id="rossi">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">vii.</div>
+        <h2>Vini Rossi</h2>
+        <p>Red wines, by the glass — glass · carafe · bottle on request.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Chianti Classico</div><div class="menu-item__desc">Tuscany · Cherry, leather, firm tannins.</div></div><div class="menu-item__price">£7.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Montepulciano d'Abruzzo</div><div class="menu-item__desc">Abruzzo · Deep fruit, soft finish.</div></div><div class="menu-item__price">£6.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Barbera d'Asti</div><div class="menu-item__desc">Piedmont · Bright acidity, cherry, spice.</div></div><div class="menu-item__price">£7.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Valpolicella Classico</div><div class="menu-item__desc">Veneto · Light, fresh, red berries.</div></div><div class="menu-item__price">£6.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Nero d'Avola</div><div class="menu-item__desc">Sicily · Rich, dark fruit, chocolate.</div></div><div class="menu-item__price">£7.50</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VINI BIANCHI -->
+  <section class="menu-section" id="bianchi">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">viii.</div>
+        <h2>Vini Bianchi</h2>
+        <p>White wines, by the glass.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Pinot Grigio</div><div class="menu-item__desc">Friuli · Crisp, pear, mineral finish.</div></div><div class="menu-item__price">£6.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Gavi</div><div class="menu-item__desc">Piedmont · Cortese grape, citrus, almonds.</div></div><div class="menu-item__price">£7.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Soave</div><div class="menu-item__desc">Veneto · Garganega, peach, gentle acidity.</div></div><div class="menu-item__price">£6.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Vermentino</div><div class="menu-item__desc">Sardegna · Aromatic, citrus, herbs.</div></div><div class="menu-item__price">£7.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Moscato d'Asti</div><div class="menu-item__desc">Piedmont · Lightly sparkling, apricot, floral.</div></div><div class="menu-item__price">£7.50</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROSATO -->
+  <section class="menu-section" id="rosato">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">ix.</div>
+        <h2>Rosato</h2>
+        <p>Rosé wines, by the glass.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Italian Rosé</div><div class="menu-item__desc">Light salmon, strawberry, dry finish.</div></div><div class="menu-item__price">£6.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Rosato Amabile</div><div class="menu-item__desc">Semi-sweet, red fruit, perfect with dolci.</div></div><div class="menu-item__price">£7.00</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIRRE -->
+  <section class="menu-section" id="birre">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">x.</div>
+        <h2>Birre</h2>
+        <p>Beers.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Peroni <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£5.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Ichnusa <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£6.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Peroni 0.0 <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£5.00</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ANALCOLICI -->
+  <section class="menu-section" id="analcolici">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">xi.</div>
+        <h2>Analcolici</h2>
+        <p>Soft drinks &amp; water.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Still Water <span class="menu-item__tag">500ml</span></div></div><div class="menu-item__price">£2.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Still Water <span class="menu-item__tag">1L</span></div></div><div class="menu-item__price">£4.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Sparkling Water <span class="menu-item__tag">500ml</span></div></div><div class="menu-item__price">£2.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Sparkling Water <span class="menu-item__tag">1L</span></div></div><div class="menu-item__price">£4.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Coca-Cola <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£3.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Diet Coke <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£3.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Lemonade <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£3.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Chinotto <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£3.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Aranciata <span class="menu-item__tag">330ml</span></div></div><div class="menu-item__price">£3.50</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAFFÈ -->
+  <section class="menu-section" id="caffe">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">xii.</div>
+        <h2>Caffè</h2>
+        <p>Coffee.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Espresso</div></div><div class="menu-item__price">£2.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Doppio Espresso</div></div><div class="menu-item__price">£3.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Americano</div></div><div class="menu-item__price">£3.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Cappuccino</div></div><div class="menu-item__price">£3.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Caffè Latte</div></div><div class="menu-item__price">£3.80</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Macchiato</div></div><div class="menu-item__price">£2.80</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIGESTIVI -->
+  <section class="menu-section" id="digestivi">
+    <div class="wrap">
+      <div class="menu-section__head">
+        <div class="eyebrow">xiii.</div>
+        <h2>Digestivi</h2>
+        <p>To close the meal — the Italian way of saying goodnight.</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item"><div><div class="menu-item__name">Limoncello</div></div><div class="menu-item__price">£4.50</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Amaretto</div></div><div class="menu-item__price">£5.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Grappa</div></div><div class="menu-item__price">£6.00</div></div>
+        <div class="menu-item"><div><div class="menu-item__name">Sambuca</div></div><div class="menu-item__price">£5.00</div></div>
+      </div>
+    </div>
+  </section>
+
+  <div style="text-align:center;padding:80px 32px 100px;">
+    <div class="divider">buon appetito</div>
+    <p style="margin-top:28px;font-family:var(--ff-editorial);font-style:italic;color:var(--parchment-faint);max-width:560px;margin-left:auto;margin-right:auto;font-size:1rem;line-height:1.75;">
+      An optional 12.5% service charge is added to all tables. All gratuities go directly to our team.<br>
+      <strong style="color:var(--gold-dim);font-style:normal">v</strong> vegetarian &nbsp;·&nbsp; <strong style="color:var(--gold-dim);font-style:normal">vg</strong> vegan &nbsp;·&nbsp; Please inform your server of any allergies.
+    </p>
+    <a href="index.html#book" class="btn btn--gold" style="margin-top:36px;">Reserve a Table</a>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <div class="footer__brand">Il Gusto Italiano</div>
+      <div class="footer__tagline">Cucina Tradizionale</div>
+      <p style="margin-top:24px">18 Via della Luna<br>Kensington, London</p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Tuesday – Saturday<br>12:00 – 23:00</p>
+      <p style="margin-top:10px">Sunday · 12:00 – 17:00<br>Monday · Closed</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>020 7946 XXXX</p>
+      <p><a href="mailto:hello@ilgusto.co.uk">hello@ilgusto.co.uk</a></p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="menu.html">Menu</a></p>
+      <p><a href="faq.html">FAQ</a></p>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>© Il Gusto Italiano</span>
+    <span class="footer__note">Concept restaurant website created for design practice.</span>
+  </div>
+</footer>
+
+<!-- MOBILE BOOKING BAR -->
+<div class="mobile-book-bar">
+  <a href="index.html#book" class="btn btn--gold">Book a Table</a>
+  <a href="tel:+4402079460000" class="btn">Call Us</a>
+</div>
+
+<!-- MOBILE BOOKING BAR -->
+<div class="mobile-book-bar">
+  <button class="btn btn--gold" id="mobileBookOnline">Book a Table</button>
+  <button class="btn phone-trigger">Call Us</button>
+</div>
+
+<!-- BOOKING MODAL -->
+<div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-label="Reserve a Table">
+  <div class="modal">
+    <button class="modal__close" id="closeModal" aria-label="Close">×</button>
+    <div class="divider">prenota</div>
+    <div class="modal__title-row">
+      <span></span>
+      <h2>Reserve a Table</h2>
+      <button class="modal__close--inline" id="closeModalInline" aria-label="Close">×</button>
+    </div>
+    <p style="text-align:center;font-family:var(--ff-display);font-style:normal;font-size:1.2rem;color:#c0392b;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px;">Demo only — no real booking will be made.</p>
+    <div class="modal-form" id="bookingForm">
+      <div class="modal-form__row">
+        <label>First Name<input type="text" autocomplete="given-name"></label>
+        <label>Last Name<input type="text" autocomplete="family-name"></label>
+      </div>
+      <label>Email<input type="email" placeholder="maria@example.com" autocomplete="email"></label>
+      <div class="modal-form__row">
+        <label>Date<input type="date" id="bookDate"></label>
+        <label>Time<select id="bookTime"><option value="">Select a time</option></select></label>
+      </div>
+      <label>Guests
+        <select>
+          <option>1 guest</option><option selected>2 guests</option><option>3 guests</option>
+          <option>4 guests</option><option>5 guests</option><option>6 guests</option>
+          <option>7+ guests — please call</option>
+        </select>
+      </label>
+      <label>Special requests (optional)<input type="text" placeholder="Dietary requirements, celebrations…"></label>
+      <p class="modal-form__time-note" id="timeNote"></p>
+      <button class="btn btn--gold" id="submitBooking">Confirm Reservation</button>
+    </div>
+    <div class="modal-success" id="bookingSuccess">
+      <div class="modal-success__icon">✓</div>
+      <h3 style="font-family:var(--ff-display);font-size:1.1rem;letter-spacing:0.06em;text-transform:uppercase;color:var(--parchment);">Table Reserved</h3>
+      <p>Thank you — a confirmation has been sent to your email. We look forward to welcoming you.</p>
+    </div>
+  </div>
+</div>
+
+<!-- PHONE DEMO MODAL -->
+<div class="modal-overlay" id="phoneModal" role="dialog" aria-modal="true">
+  <div class="modal modal--phone">
+    <div class="phone-demo">
+      <div class="phone-demo__icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 8h4l2 6-3 2a18 18 0 0 0 8 8l2-3 6 2v4a2 2 0 0 1-2 2A24 24 0 0 1 9 10a2 2 0 0 1 2-2h5z" stroke="#caa85a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <p class="phone-demo__number">020 7946 XXXX</p>
+      <p class="phone-demo__notice">Demo only — no real call will be made.</p>
+      <button class="btn" id="closePhoneModal" style="margin-top:8px;">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Hamburger menu
+(function(){
+  const burger = document.getElementById('navBurger');
+  const links  = document.getElementById('navLinks');
+  if (!burger) return;
+  burger.addEventListener('click', () => {
+    const open = links.classList.toggle('is-mobile-open');
+    burger.classList.toggle('is-open', open);
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('is-mobile-open');
+    burger.classList.remove('is-open');
+  }));
+})();
+
+(function(){
+  const tabs = document.querySelectorAll('.menu-tab');
+  const sections = [...document.querySelectorAll('.menu-section')];
+  tabs.forEach(t => t.addEventListener('click', () => {
+    const el = document.getElementById(t.dataset.target);
+    if (!el) return;
+    const top = el.getBoundingClientRect().top + window.scrollY - 175;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }));
+  function setActive() {
+    const y = window.scrollY + 200;
+    let active = sections[0]?.id;
+    for (const s of sections) { if (s.offsetTop <= y) active = s.id; }
+    tabs.forEach(t => t.classList.toggle('is-active', t.dataset.target === active));
+  }
+  window.addEventListener('scroll', setActive, { passive: true });
+  setActive();
+})();
+
+// Booking modal
+(function(){
+  const overlay  = document.getElementById('bookingModal');
+  const form     = document.getElementById('bookingForm');
+  const success  = document.getElementById('bookingSuccess');
+  const bookDate = document.getElementById('bookDate');
+  const bookTime = document.getElementById('bookTime');
+  const timeNote = document.getElementById('timeNote');
+  const slots = {
+    0: ['12:00','12:30','13:00','13:30','14:00','14:30','15:00','15:30','16:00'],
+    1: [],
+    2: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    3: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    4: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    5: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    6: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+  };
+  const today = new Date();
+  const pad = n => String(n).padStart(2,'0');
+  bookDate.min = `${today.getFullYear()}-${pad(today.getMonth()+1)}-${pad(today.getDate())}`;
+  bookDate.addEventListener('change', () => {
+    bookTime.innerHTML = '<option value="">Select a time</option>';
+    timeNote.textContent = '';
+    if (!bookDate.value) return;
+    const day = new Date(bookDate.value).getDay();
+    if (day === 1) { timeNote.textContent = 'We are closed on Mondays.'; return; }
+    (slots[day]||[]).forEach(t => { const o = document.createElement('option'); o.value=t; o.textContent=t; bookTime.appendChild(o); });
+    if (day === 0) timeNote.textContent = 'Sunday service closes at 17:00.';
+  });
+  function open(){ overlay.classList.add('is-open'); document.body.style.overflow='hidden'; }
+  function close(){
+    overlay.classList.remove('is-open'); document.body.style.overflow='';
+    setTimeout(() => { form.style.display=''; success.classList.remove('is-visible'); }, 350);
+  }
+  document.querySelectorAll('#navBookOnline, #mobileBookOnline').forEach(b => b.addEventListener('click', e => { e.preventDefault(); open(); }));
+  document.getElementById('closeModal').addEventListener('click', close);
+  document.getElementById('closeModalInline').addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target===overlay) close(); });
+  document.addEventListener('keydown', e => { if (e.key==='Escape') close(); });
+  document.getElementById('submitBooking').addEventListener('click', () => { form.style.display='none'; success.classList.add('is-visible'); });
+})();
+
+// Phone modal
+(function(){
+  const overlay  = document.getElementById('phoneModal');
+  const closeBtn = document.getElementById('closePhoneModal');
+  function open(){ overlay.classList.add('is-open'); document.body.style.overflow='hidden'; }
+  function close(){ overlay.classList.remove('is-open'); document.body.style.overflow=''; }
+  document.querySelectorAll('.phone-trigger').forEach(t => t.addEventListener('click', e => { e.preventDefault(); open(); }));
+  closeBtn.addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target===overlay) close(); });
+  document.addEventListener('keydown', e => { if (e.key==='Escape' && overlay.classList.contains('is-open')) close(); });
+})();
+</script>
+</body>
+</html>

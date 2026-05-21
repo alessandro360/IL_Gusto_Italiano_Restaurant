@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Il Gusto Italiano — Cucina Tradizionale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Il Gusto Italiano — Traditional Italian kitchen in the heart of London. Simple ingredients, family recipes, warm atmosphere.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-screen-label="Home">
+
+<nav class="nav" id="nav">
+  <a class="nav__brand" href="index.html">
+    <span class="nav__brand__line1">Concept</span>
+    <span class="nav__brand__line2">Restaurant Website</span>
+  </a>
+  <div class="nav__links" id="navLinks">
+    <a href="index.html" class="is-active">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="faq.html">FAQ</a>
+  </div>
+  <div class="nav__right">
+    <button class="nav__cta" id="navReserve">Book Online</button>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="hero">
+  <div class="hero__slides" id="heroSlides">
+    <div class="hero__slide is-active" style="background-image:url('assets/restaurant.png')"></div>
+    <div class="hero__slide" style="background-image:url('assets/carbonara.png')"></div>
+    <div class="hero__slide" style="background-image:url('assets/steak.png')"></div>
+    <div class="hero__slide" style="background-image:url('assets/tiramisu.png')"></div>
+    <div class="hero__slide" style="background-image:url('assets/calamari.png')"></div>
+  </div>
+  <div class="hero__veil"></div>
+  <div class="hero__inner">
+    <div class="hero__plate">
+      <h1 class="hero__title">Il Gusto<br>Italiano</h1>
+      <p class="hero__subtitle">Cucina Tradizionale</p>
+      <a href="menu.html" class="btn btn--gold hero__cta">View Menu</a>
+    </div>
+  </div>
+  <div class="hero__dots" id="heroDots">
+    <button class="hero__dot is-active" data-i="0" aria-label="Slide 1"></button>
+    <button class="hero__dot" data-i="1" aria-label="Slide 2"></button>
+    <button class="hero__dot" data-i="2" aria-label="Slide 3"></button>
+    <button class="hero__dot" data-i="3" aria-label="Slide 4"></button>
+    <button class="hero__dot" data-i="4" aria-label="Slide 5"></button>
+  </div>
+</header>
+
+<!-- FEATURED DISHES -->
+<section class="section" style="padding-top:100px;">
+  <div class="wrap">
+    <div class="dishes-head">
+      <div class="eyebrow dishes-head__eyebrow">From the Kitchen</div>
+      <h2 class="serif dishes-head__title">Signature <span class="italic" style="color:var(--gold)">Dishes</span></h2>
+    </div>
+    <div class="dishes">
+      <article class="dish">
+        <div class="dish__img">
+          <img src="assets/steak.png" alt="Tagliata di Manzo">
+        </div>
+        <div class="dish__body">
+          <div class="dish__cat">Secondi</div>
+          <h3 class="dish__name">Tagliata di Manzo</h3>
+          <p class="dish__desc">Sliced 35-day aged sirloin, rocket, shaved parmigiano, aged balsamic.</p>
+        </div>
+      </article>
+      <article class="dish">
+        <div class="dish__img">
+          <img src="assets/carbonara.png" alt="Spaghetti alla Carbonara">
+        </div>
+        <div class="dish__body">
+          <div class="dish__cat">Primi</div>
+          <h3 class="dish__name">Spaghetti Carbonara</h3>
+          <p class="dish__desc">Guanciale, free-range egg yolk, grated cheese.</p>
+        </div>
+      </article>
+      <article class="dish">
+        <div class="dish__img">
+          <img src="assets/calamari.png" alt="Calamari Fritti">
+        </div>
+        <div class="dish__body">
+          <div class="dish__cat">Antipasti</div>
+          <h3 class="dish__name">Calamari Fritti</h3>
+          <p class="dish__desc">Crisp Cornish squid in semolina flour, lemon, parsley, aioli al limone.</p>
+        </div>
+      </article>
+      <article class="dish">
+        <div class="dish__img">
+          <img src="assets/tiramisu.png" alt="Tiramisù della Casa">
+        </div>
+        <div class="dish__body">
+          <div class="dish__cat">Dolci</div>
+          <h3 class="dish__name">Tiramisù della Casa</h3>
+          <p class="dish__desc">Mascarpone, savoiardi soaked in espresso &amp; marsala, dusted with cocoa.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section>
+  <div class="atmos">
+    <div class="atmos__img" style="background-image:url('assets/restaurant.png')"></div>
+    <div class="atmos__copy atmos__copy--minimal">
+      <div class="atmos__meta">
+        <div>
+          <h5>Address</h5>
+          <p>18 Via della Luna<br>Kensington, London</p>
+        </div>
+        <div>
+          <h5>Opening Hours</h5>
+          <p>Tuesday – Saturday · 12:00 – 23:00<br>Sunday · 12:00 – 17:00<br>Monday · Closed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING CTA -->
+<section class="cta" id="book">
+  <div class="cta__inner wrap-narrow">
+    <div class="divider">book a table</div>
+    <h2>A table is waiting<br><span class="italic" style="color:var(--gold)">for you.</span></h2>
+    <p>Reserve your table online or call us directly for bookings and availability.</p>
+    <div class="cta__row">
+      <button class="btn btn--solid" id="openBooking">Book Online</button>
+      <button class="btn phone-trigger">020 7946 XXXX</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div>
+      <div class="footer__brand">Il Gusto Italiano</div>
+      <div class="footer__tagline">Cucina tradizionale dal 2008</div>
+      <p>18 Via della Luna<br>Kensington, London</p>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <p>Tuesday – Saturday<br>12:00 – 23:00</p>
+      <p style="margin-top:10px">Sunday · 12:00 – 17:00<br>Monday · Closed</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p>020 7946 XXXX</p>
+      <p><a href="mailto:hello@ilgusto.co.uk">hello@ilgusto.co.uk</a></p>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="menu.html">Menu</a></p>
+      <p><a href="faq.html">FAQ</a></p>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span class="footer__concept">Concept Restaurant Website</span>
+  </div>
+</footer>
+
+<!-- BOOKING MODAL -->
+<div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-label="Reserve a Table">
+  <div class="modal">
+    <button class="modal__close" id="closeModal" aria-label="Close">×</button>
+    <div class="divider">prenota</div>
+    <div class="modal__title-row">
+      <span></span>
+      <h2>Reserve a Table</h2>
+      <button class="modal__close--inline" id="closeModalInline" aria-label="Close">×</button>
+    </div>
+    <p style="text-align:center;font-family:var(--ff-display);font-style:normal;font-size:1.2rem;color:#c0392b;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px;">Demo only — no real booking will be made.</p>
+    <div class="modal-form" id="bookingForm">
+      <div class="modal-form__row">
+        <label>
+          First Name
+          <input type="text" placeholder="" autocomplete="given-name">
+        </label>
+        <label>
+          Last Name
+          <input type="text" placeholder="" autocomplete="family-name">
+        </label>
+      </div>
+      <label>
+        Email
+        <input type="email" placeholder="maria@example.com" autocomplete="email">
+      </label>
+      <div class="modal-form__row">
+        <label>
+          Date
+          <input type="date" id="bookDate">
+        </label>
+        <label>
+          Time
+          <select id="bookTime">
+            <option value="">Select a time</option>
+          </select>
+        </label>
+      </div>
+      <label>
+        Guests
+        <select>
+          <option>1 guest</option>
+          <option selected>2 guests</option>
+          <option>3 guests</option>
+          <option>4 guests</option>
+          <option>5 guests</option>
+          <option>6 guests</option>
+          <option>7+ guests — please call</option>
+        </select>
+      </label>
+      <label>
+        Special requests (optional)
+        <input type="text" placeholder="Dietary requirements, celebrations…">
+      </label>
+      <p class="modal-form__time-note" id="timeNote"></p>
+      <button class="btn btn--gold" id="submitBooking">Confirm Reservation</button>
+    </div>
+    <div class="modal-success" id="bookingSuccess">
+      <div class="modal-success__icon">✓</div>
+      <h3 style="font-family:var(--ff-display);font-size:1.1rem;letter-spacing:0.06em;text-transform:uppercase;color:var(--parchment);">Table Reserved</h3>
+      <p>Thank you — a confirmation has been sent to your email. We look forward to welcoming you.</p>
+    </div>
+  </div>
+</div>
+
+<!-- PHONE DEMO MODAL -->
+<div class="modal-overlay" id="phoneModal" role="dialog" aria-modal="true" aria-label="Phone demo">
+  <div class="modal modal--phone">
+    <button class="modal__close" id="closePhoneModal" aria-label="Close">×</button>
+    <div class="phone-demo">
+      <div class="phone-demo__icon" id="phoneIcon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 8h4l2 6-3 2a18 18 0 0 0 8 8l2-3 6 2v4a2 2 0 0 1-2 2A24 24 0 0 1 9 10a2 2 0 0 1 2-2h5z" stroke="#caa85a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <p class="phone-demo__number">020 7946 XXXX</p>
+      <p class="phone-demo__notice">Demo only — no real call will be made.</p>
+      <button class="btn" id="closePhoneModalBtn" style="margin-top:8px;">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- MOBILE BOOKING BAR -->
+<div class="mobile-book-bar">
+  <button class="btn btn--gold" id="openBookingMobile">Book a Table</button>
+  <button class="btn phone-trigger">Call Us</button>
+</div>
+
+<script>
+// Hamburger menu
+(function(){
+  const burger = document.getElementById('navBurger');
+  const links  = document.getElementById('navLinks');
+  if (!burger) return;
+  burger.addEventListener('click', () => {
+    const open = links.classList.toggle('is-mobile-open');
+    burger.classList.toggle('is-open', open);
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    links.classList.remove('is-mobile-open');
+    burger.classList.remove('is-open');
+  }));
+})();
+
+// Hero rotator
+(function(){
+  const slides = document.querySelectorAll('#heroSlides .hero__slide');
+  const dots   = document.querySelectorAll('#heroDots .hero__dot');
+  let i = 0;
+  function go(n){
+    slides.forEach((s,k) => s.classList.toggle('is-active', k===n));
+    dots.forEach((d,k)   => d.classList.toggle('is-active', k===n));
+    i = n;
+  }
+  dots.forEach(d => d.addEventListener('click', () => { go(parseInt(d.dataset.i,10)); reset(); }));
+  let timer = setInterval(() => go((i+1) % slides.length), 5000);
+  function reset(){ clearInterval(timer); timer = setInterval(()=>go((i+1)%slides.length), 6000); }
+})();
+
+// Nav solid on scroll
+(function(){
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('is-solid', window.scrollY > 60);
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+})();
+
+// Booking modal + time-aware logic
+(function(){
+  const overlay  = document.getElementById('bookingModal');
+  const closeBtn = document.getElementById('closeModal');
+  const openBtns = document.querySelectorAll('#openBooking, #navReserve, #openBookingMobile');
+  const timeNote = document.getElementById('timeNote');
+  const bookDate = document.getElementById('bookDate');
+  const bookTime = document.getElementById('bookTime');
+  const submit   = document.getElementById('submitBooking');
+  const form     = document.getElementById('bookingForm');
+  const success  = document.getElementById('bookingSuccess');
+
+  // Opening hours: Tue–Sat 12–23, Sun 12–17, Mon closed
+  const slots = {
+    0: [], // Sunday lunch only (will fill below)
+    1: [], // Monday — closed
+    2: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    3: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    4: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    5: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+    6: ['12:00','12:30','13:00','13:30','14:00','14:30','19:00','19:30','20:00','20:30','21:00','21:30'],
+  };
+  slots[0] = ['12:00','12:30','13:00','13:30','14:00','14:30','15:00','15:30','16:00'];
+
+  // Set min date to today
+  const today = new Date();
+  const pad = n => String(n).padStart(2,'0');
+  bookDate.min = `${today.getFullYear()}-${pad(today.getMonth()+1)}-${pad(today.getDate())}`;
+
+  function updateSlots(){
+    const val = bookDate.value;
+    bookTime.innerHTML = '<option value="">Select a time</option>';
+    timeNote.textContent = '';
+    if (!val) return;
+    const d = new Date(val);
+    const day = d.getDay();
+    if (day === 1) {
+      timeNote.textContent = 'We are closed on Mondays. Please choose another date.';
+      return;
+    }
+    const available = slots[day] || [];
+    if (!available.length) {
+      timeNote.textContent = 'No availability on this date.';
+      return;
+    }
+    available.forEach(t => {
+      const o = document.createElement('option');
+      o.value = t; o.textContent = t;
+      bookTime.appendChild(o);
+    });
+    if (day === 0) timeNote.textContent = 'Sunday service closes at 17:00.';
+  }
+  bookDate.addEventListener('change', updateSlots);
+
+  function open(){
+    overlay.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function close(){
+    overlay.classList.remove('is-open');
+    document.body.style.overflow = '';
+    // Reset after transition completes
+    setTimeout(() => {
+      form.style.display = '';
+      success.classList.remove('is-visible');
+    }, 350);
+  }
+  openBtns.forEach(b => b.addEventListener('click', e => { e.preventDefault(); open(); }));
+
+  // navReserve — always open modal, never scroll
+  document.getElementById('navReserve').addEventListener('click', e => { e.preventDefault(); open(); });
+
+  closeBtn.addEventListener('click', close);
+  const closeBtnInline = document.getElementById('closeModalInline');
+  if (closeBtnInline) closeBtnInline.addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+
+  submit.addEventListener('click', () => {
+    form.style.display = 'none';
+    success.classList.add('is-visible');
+  });
+})();
+
+// Phone demo modal
+(function(){
+  const overlay   = document.getElementById('phoneModal');
+  const closeBtn  = document.getElementById('closePhoneModal');
+  const triggers  = document.querySelectorAll('.phone-trigger');
+
+  function open(){
+    overlay.classList.add('is-open');
+    document.body.style.overflow = 'hidden';
+  }
+  function close(){
+    overlay.classList.remove('is-open');
+    document.body.style.overflow = '';
+  }
+  triggers.forEach(t => t.addEventListener('click', e => { e.preventDefault(); open(); }));
+  closeBtn.addEventListener('click', close);
+  document.getElementById('closePhoneModalBtn').addEventListener('click', close);
+  overlay.addEventListener('click', e => { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && overlay.classList.contains('is-open')) close(); });
+})();
+</script>
+</body>
+</html>
